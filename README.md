@@ -33,10 +33,10 @@ assert(yourLib, 'Your module is loaded.');
 
 ## Installation
 
-Install with [npm](https://www.npmjs.org/). (Make sure you have installed [Node](http://nodejs.org/).)
+Install with [npm](https://github.com/npm/npm#npm1----node-package-manager). (Make sure you have installed [Node](http://nodejs.org/).)
 
 ```
-npm install --save require-main
+npm install --save-dev require-main
 ```
 
 ## Usage
