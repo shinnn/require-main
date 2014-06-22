@@ -1,0 +1,45 @@
+{
+  "name": "require-main",
+  "version": "0.0.0",
+  "description": "Load the project's main script simply",
+  "scripts": {
+    "lint": "set \"index.js test/test.js\"; eslint $1 && jscs $1",
+    "pretest": "npm run-script lint",
+    "test": "tape test/test.js | tap-spec"
+  },
+  "repository": "shinnn/require-main",
+  "author": {
+    "name": "Shinnosuke Watanabe",
+    "url": "https://github.com/shinnn"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/shinnn/require-main/blob/master/LICENSE"
+    }
+  ],
+  "files": [
+    "index.js",
+    "LICENSE"
+  ],
+  "keywords": [
+    "require",
+    "load",
+    "main",
+    "package",
+    "entry point",
+    "module",
+    "cwd",
+    "index",
+    "simplify"
+  ],
+  "dependencies": {
+    "cwd": "^0.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^0.6.2",
+    "jscs": "^1.5.3",
+    "tap-spec": "^0.2.0",
+    "tape": "^2.13.3"
+  }
+}
