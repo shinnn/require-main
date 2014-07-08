@@ -34,11 +34,11 @@
     "simplify"
   ],
   "dependencies": {
-    "cwd": "^0.3.3"
+    "cwd": "^0.3.7"
   },
   "devDependencies": {
-    "eslint": "^0.6.2",
-    "jscs": "^1.5.3",
+    "eslint": "^0.7.1",
+    "jscs": "^1.5.8",
     "tap-spec": "^0.2.0",
     "tape": "^2.13.3"
   }
