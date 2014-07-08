@@ -1,7 +1,5 @@
 'use strict';
 
-var assert = require('assert');
-
 var test = require('tape');
 
 var requireMain = require('../');

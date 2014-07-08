@@ -1,6 +1,5 @@
 'use strict';
 
-var path = require('path');
 var cwd = require('cwd');
 
 module.exports = function requireMain() {
