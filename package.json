@@ -1,6 +1,6 @@
 {
   "name": "require-main",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Load the project's main script simply",
   "scripts": {
     "lint": "set \"index.js test/test.js\"; eslint $1 && jscs $1",
